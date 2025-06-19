@@ -1,0 +1,94 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#121212">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- App Logo or Image -->
+        <ImageView
+            android:id="@+id/appLogo"
+            android:src="@drawable/music_banner"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Input Fields -->
+        <EditText
+            android:id="@+id/songTitle"
+            android:hint="🎵 Song Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="#FFFFFF"
+            android:hintTextColor="#BBBBBB"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/artistName"
+            android:hint="🎤 Artist Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="#FFFFFF"
+            android:hintTextColor="#BBBBBB"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/songRating"
+            android:hint="⭐ Rating (1-5)"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="#FFFFFF"
+            android:hintTextColor="#BBBBBB"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/songComment"
+            android:hint="💬 Comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="#FFFFFF"
+            android:hintTextColor="#BBBBBB"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/btnAdd"
+            android:text="Add to Playlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnView"
+            android:text="View Playlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:text="Exit App"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
