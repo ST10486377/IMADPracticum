@@ -11,3 +11,5 @@ APP Features
 -View the playlist in a stylish list
 -Caluculate and display the 'average rating' 
 -Proper use of arrays, loops, errors and screen navigation.
+
+![d2](https://github.com/user-attachments/assets/e962f072-b72b-4d0a-8c36-7ebc59b08ff1)
