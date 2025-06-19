@@ -10,4 +10,4 @@ APP Features
 ~user comment
 -View the playlist in a stylish list
 -Caluculate and display the 'average rating' 
--Proper use of arrays, loops, errors and screen navigation
+-Proper use of arrays, loops, errors and screen navigation.
